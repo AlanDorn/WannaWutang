@@ -1,34 +1,32 @@
-package wannaWutangPackage;
-
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.HttpURLConnection;
-import java.net.*;
-import java.io.*;
+// import java.net.URL;
+// import java.net.URLConnection;
+// import java.net.HttpURLConnection;
+// import java.net.*;
+// import java.io.*;
 
 
-public class WutangClass
-{
+// public class WutangClass
+// {
 
-	public static void main(String[] args) throws Exception	{
-		// TODO Auto-generated method stub
+// 	public static void main(String[] args) throws Exception	{
+// 		// TODO Auto-generated method stub
 		
-		URL myURL = new URL("https://www.mess.be/inickgenwuname.php");
-		URLConnection myURLConnection = myURL.openConnection();
-		myURLConnection.connect();
+// 		URL myURL = new URL("https://www.mess.be/inickgenwuname.php");
+// 		URLConnection myURLConnection = myURL.openConnection();
+// 		myURLConnection.connect();
 		
-		BufferedReader in = new BufferedReader(new InputStreamReader(myURLConnection.getInputStream()));
+// 		BufferedReader in = new BufferedReader(new InputStreamReader(myURLConnection.getInputStream()));
 		
-		String inputLine = " ";
+// 		String inputLine = " ";
 		
-		while((inputLine = in.readLine()) != null)
-			System.out.println(inputLine);
-		in.close();
+// 		while((inputLine = in.readLine()) != null)
+// 			System.out.println(inputLine);
+// 		in.close();
 		
-	}
+// 	}
 		
 		
 	
-}
+// }
 
 
